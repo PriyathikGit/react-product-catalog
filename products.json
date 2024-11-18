@@ -22,5 +22,21 @@
       "price": 29.99,
       "image": "https://images.indianexpress.com/2024/08/7142Yat1NiL._SX679_.jpg",
       "description": "Budget Friendly smartPhone young india's."
+    },
+    {
+      "id": 4,
+      "name": "SmartPhone",
+      "category": "phone",
+      "price": 29.99,
+      "image": "https://images.indianexpress.com/2024/08/7142Yat1NiL._SX679_.jpg",
+      "description": "Budget Friendly smartPhone young india's."
+    },
+    {
+      "id": 5,
+      "name": "SmartPhone",
+      "category": "phone",
+      "price": 29.99,
+      "image": "https://images.indianexpress.com/2024/08/7142Yat1NiL._SX679_.jpg",
+      "description": "Budget Friendly smartPhone young india's."
     }
   ]
