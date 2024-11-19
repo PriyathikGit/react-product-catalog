@@ -1,6 +1,7 @@
 import React from "react";
 
 const ProductItem = ({ product, onViewDetails, isInCart, removeCart }) => {
+  
   return (
     <div
       // className="m-4 flex flex-col items-center hover:-translate-y-2 md:transition-transform duration-300 ease-in-out flex-[0_0_30%]"
@@ -19,16 +20,12 @@ const ProductItem = ({ product, onViewDetails, isInCart, removeCart }) => {
           className="border p-4 bg-blue-700 text-white rounded-md">
           View Details
         </button>) :
-          <button
-            // onClick={() => onViewDetails(product.id)}
-            className="border p-4 bg-blue-700 text-white rounded-md">
-            Buy Now
-          </button>
+         null
       }
       {!isInCart &&
         <button
-          onClick={() => removeCart(product.id)}
-          className="p-4 bg-red-500 text-white rounded-md
+          onClick={() => removeCart(product.uniqueId)}
+          className="p-2 bg-red-500 text-white rounded-md
         ">remove</button>
       }
     </div>
