@@ -20,3 +20,19 @@ bug.
 2. Added beautiful animation when user hover on the product
 3. Used Tailwind css for styling and make it responsive across all devices
 
+
+// Screenshot
+1. HomePage
+![alt text](image.png)
+
+2. Searching functionality
+![alt text](image-1.png)
+
+3. Detail Page
+![alt text](image-2.png)
+
+4. Cart Functionality
+![alt text](image-3.png)
+
+5. Cart Window
+![alt text](image-4.png)
